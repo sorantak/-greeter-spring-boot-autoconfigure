@@ -16,6 +16,7 @@ repositories {
 
 dependencies {
     annotationProcessor "org.springframework.boot:spring-boot-autoconfigure-processor"
+    annotationProcessor "org.springframework.boot:spring-boot-autoconfigure"
 //    implementation 'com.github.DaeAkin:greeter-library:v1.0.0'
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
